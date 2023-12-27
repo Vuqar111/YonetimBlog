@@ -36,7 +36,7 @@ const SignIn = () => {
               </Link> */}
 
               <p className="text-2xl px-20">
-                Arastirma A.S company
+              ANK-AR
               </p>
 
               <span className="mt-15 inline-block">
@@ -168,7 +168,7 @@ const SignIn = () => {
             <div className="w-full p-4 sm:p-12.5 xl:p-17.5">
               <span className="mb-1.5 block font-medium">Welcome</span>
               <h2 className="mb-9 text-2xl font-bold text-black dark:text-white sm:text-title-xl2">
-                Arastirma A.S
+                ANK-AR
               </h2>
 
               <form onSubmit={handleLogin}>
@@ -181,7 +181,7 @@ const SignIn = () => {
                       type="email"
                       value={email}
                       onChange={(e)=> setEmail(e.target.value)}
-                      placeholder="Zəhmət olmasa emailinizi daxil edin"
+                      placeholder="Write email"
                       className="w-full rounded-lg border border-stroke bg-transparent py-4 pl-6 pr-10 outline-none focus:border-primary focus-visible:shadow-none dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary"
                     />
 
@@ -214,7 +214,7 @@ const SignIn = () => {
                       type="password"
                       value={password}
                       onChange={(e)=> setPassword(e.target.value)}
-                      placeholder="Zəhmət olmasa parolunuzu daxil edin"
+                      placeholder="Write password"
                       className="w-full rounded-lg border border-stroke bg-transparent py-4 pl-6 pr-10 outline-none focus:border-primary focus-visible:shadow-none dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary"
                     />
 

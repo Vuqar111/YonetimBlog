@@ -44,8 +44,8 @@ const Settings = () => {
     try {
       await dispatch(updateUser({ updatedUser }));
       Swal.fire({
-        title: 'Profil güncəlləndi',
-        text: 'Profiliniz uğurla güncəlləndi',
+        title: 'Profile updated',
+        text: 'Your profile has been updated successfully',
         icon: 'success',
       });
     } catch (error) {
@@ -82,7 +82,7 @@ const Settings = () => {
                           className="mb-3 block text-sm font-medium text-black dark:text-white"
                           htmlFor="fullName"
                         >
-                          Ad
+                          Name
                         </label>
                         <div className="relative">
                           <span className="absolute left-4.5 top-4">
@@ -125,7 +125,7 @@ const Settings = () => {
                           className="mb-3 block text-sm font-medium text-black dark:text-white"
                           htmlFor="fullName"
                         >
-                          Soyad
+                          Surname
                         </label>
                         <div className="relative">
                           <span className="absolute left-4.5 top-4">
@@ -169,7 +169,7 @@ const Settings = () => {
                         className="mb-3 block text-sm font-medium text-black dark:text-white"
                         htmlFor="emailAddress"
                       >
-                        E-mail ünvanı
+                        Email
                       </label>
                       <div className="relative">
                         <span className="absolute left-4.5 top-4">
@@ -213,13 +213,13 @@ const Settings = () => {
                         to="/"
                         className="flex justify-center rounded border border-stroke py-2 px-6 font-medium text-black hover:shadow-1 dark:border-strokedark dark:text-white"
                       >
-                        Geri
+                        Return
                       </Link>
                       <button
                         className="flex justify-center rounded bg-primary py-2 px-6 font-medium text-gray hover:shadow-1"
                         type="submit"
                       >
-                        Yadda saxla
+                      Save
                       </button>
                     </div>
                   </form>

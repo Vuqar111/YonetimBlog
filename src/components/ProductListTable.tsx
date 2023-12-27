@@ -93,7 +93,7 @@ const ProductListTable: React.FC<Props> = ({
                 dispatch(productList({ searchQuery }));
               }
             }}
-            placeholder="Məhsul adı və ya  kateqoriya ilə axtarın"
+            placeholder="Search products"
             className="w-full rounded-lg border-[1.5px] border-stroke bg-transparent py-3 px-5 font-medium outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary"
           />
         </div>
@@ -102,16 +102,16 @@ const ProductListTable: React.FC<Props> = ({
       <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
         <div className="py-6 px-4 md:px-6 xl:px-7.5">
           <h4 className="text-xl font-semibold text-black dark:text-white">
-            Tum bloglar ({data?.length})
+           All blogs ({data?.length})
           </h4>
         </div>
 
         <div className="grid grid-cols-8 border-t border-stroke py-4.5 px-4 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
           <div className="col-span-2 flex items-center">
-            <p className="font-medium">Blog adı</p>
+            <p className="font-medium">Blog name</p>
           </div>
           <div className="col-span-2 hidden items-center sm:flex">
-            <p className="font-medium">Kategori</p>
+            <p className="font-medium">Category</p>
           </div>
           <div className="col-span-2 flex items-center">
             <p className="font-medium">Subtitle</p>

@@ -112,7 +112,7 @@ const ProductCreate = () => {
 
                 <div className="mb-4.5">
                   <label className="mb-2.5 block text-black dark:text-white">
-                    Kateqoriya
+                    Category
                   </label>
                   <input
                       type="text"

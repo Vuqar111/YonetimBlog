@@ -55,7 +55,7 @@ const ImageUpload = ({
           onChange={uploadFileHandler}
         />
         {loadingUpload ? (
-          <div className='text-center'>Şəkil yüklənir...</div>
+          <div className='text-center'>Image uploading...</div>
         ) : errorUpload ? (
           <div>Error...</div>
         ) : (
@@ -72,8 +72,8 @@ const ImageUpload = ({
               </span>
             )}
             <p>
-              <span className="text-primary">Yükləmək üçün toxun</span> və ya
-              sürüklə
+              <span className="text-primary">Please touch to download</span> or
+              drop
             </p>
             <p className="mt-1.5">PNG, JPG</p>
             <p>(max, 800 X 800px)</p>
